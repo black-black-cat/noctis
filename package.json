@@ -1,16 +1,17 @@
 {
    "name": "noctis",
+   "type": "module",
    "displayName": "Noctis",
    "description": "Noctis is a collection of light & dark themes with a well balanced blend of warm and cold colors",
    "version": "10.39.1",
    "publisher": "liviuschera",
    "icon": "images/logo.png",
-   "engines": {
-      "vscode": "^1.43.0"
-   },
    "extensionKind": [
       "ui"
    ],
+   "engines": {
+      "vscode": "^1.53.0"
+   },
    "galleryBanner": {
       "color": "#052529",
       "theme": "dark"
@@ -40,59 +41,14 @@
    "contributes": {
       "themes": [
          {
-            "label": "Noctis Lux",
-            "uiTheme": "vs",
-            "path": "./themes/lux.json"
-         },
-         {
             "label": "Noctis Hibernus",
             "uiTheme": "vs",
             "path": "./themes/hibernus.json"
          },
          {
-            "label": "Noctis Lilac",
-            "uiTheme": "vs",
-            "path": "./themes/lilac.json"
-         },
-         {
             "label": "Noctis",
             "uiTheme": "vs-dark",
             "path": "./themes/noctis.json"
-         },
-         {
-            "label": "Noctis Azureus",
-            "uiTheme": "vs-dark",
-            "path": "./themes/azureus.json"
-         },
-         {
-            "label": "Noctis Bordo",
-            "uiTheme": "vs-dark",
-            "path": "./themes/bordo.json"
-         },
-         {
-            "label": "Noctis Obscuro",
-            "uiTheme": "vs-dark",
-            "path": "./themes/obscuro.json"
-         },
-         {
-            "label": "Noctis Sereno",
-            "uiTheme": "vs-dark",
-            "path": "./themes/sereno.json"
-         },
-         {
-            "label": "Noctis Uva",
-            "uiTheme": "vs-dark",
-            "path": "./themes/uva.json"
-         },
-         {
-            "label": "Noctis Viola",
-            "uiTheme": "vs-dark",
-            "path": "./themes/viola.json"
-         },
-         {
-            "label": "Noctis Minimus",
-            "uiTheme": "vs-dark",
-            "path": "./themes/minimus.json"
          }
       ]
    },
